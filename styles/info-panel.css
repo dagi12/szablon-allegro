@@ -1,0 +1,32 @@
+#contact-panel {
+    background: #e24430;
+}
+
+#category-panel {
+    background: url(../images/bg-2.png) repeat;
+}
+
+#phone-icon {
+    display: block;
+    padding: 15px 20px 15px 59px;
+    background: url(../images/telefon-2.png) 20px 50% no-repeat;
+}
+
+#info-panel-wrapper {
+    display: block;
+    float: left;
+}
+
+.info-panel {
+
+}
+
+.info-panel-row {
+    width: 100%;
+}
+
+.info-panel {
+    margin: 10px;
+    color: #fff;
+    text-shadow: 1px 1px rgba(0,0,0,0.3);
+}

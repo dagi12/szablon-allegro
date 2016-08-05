@@ -1,0 +1,74 @@
+.gallery-thumbnail-image:hover > .gallery-main-image {
+    visibility: visible;
+    opacity: 1;
+}
+
+#gallery-photo-container {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+.gallery-thumbnail-image {
+    background: #fff url(images/lupa.png) 50% 50% no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 1px;
+    padding: 4px;
+    margin-top: 5px;
+    border: 1px solid #e5e5e5;
+}
+
+.gallery-thumbnail-image img {
+    display: block;
+    width: 79px;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    margin: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+
+.gallery-main-image {
+    position: absolute;
+    top: 135px;
+    left: 40px;
+    visibility: hidden;
+    margin: 0;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+#gallery-photo-container img {
+    display: block;
+    cursor: pointer;
+    margin: 0;
+    max-width: 660px;
+    height: auto;
+    padding: 4px;
+    border: 1px solid #e5e5e5;
+}
+
+.gallery-main-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    border: none;
+}
+
+.gallery-thumbnail-image > img {
+    width: 80px;
+    float: left;
+}
+
+#gallery-photo-container {
+    display: block;
+}
+
+.gallery-thumbnail-image img:hover {
+    opacity: 0.3;
+}

@@ -1,0 +1,65 @@
+#header-img {
+    display: block;
+    width: 100%;
+}
+
+#header-panel {
+    background: url(../images/bg-2.png) repeat;
+    height: 200px;
+}
+
+#header-belt {
+    background: rgb(0, 0, 0);
+    height: 100px;
+}
+
+#menu ul li {
+    margin: 0;
+    padding: 0;
+    display: block;
+    vertical-align: middle;
+    float: left;
+    font-size: 13px;
+    line-height: 1.3em;
+}
+
+#menu ul li a {
+    display: block;
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #323232, #000000);
+    border-radius: 3px;
+    color: #fff;
+    padding: 19px 25px 18px 25px;
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    font-size: 12px;
+    line-height: 1em;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+    margin: 3px;
+}
+
+#menu {
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+#menu ul {
+    margin: 0 auto;
+    list-style: none;
+    float: left;
+    padding: 0;
+    width: 100%;
+    background: rgb(35, 35, 35);
+    border-top: 4px rgb(80, 80, 80) solid;
+    border-bottom: 4px rgb(80, 80, 80) solid;
+}
+
+#menu ul li a:hover {
+    color: #e24430;
+    background-image: linear-gradient(to bottom, #1e1e1e, #505050);
+}
