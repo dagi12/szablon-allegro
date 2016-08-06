@@ -66,3 +66,49 @@
     padding: 10px;
     font-size: 12px;
 }
+
+.footer-panel-content > p {
+    padding: 0;
+}
+
+.footer-panel-content > ul {
+    margin-bottom: 20px;
+}
+
+.footer-panel-content > ul > li {
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    /*white-space: nowrap;*/
+    width: 100%;
+    display: block;
+    float: left;
+    clear: both;
+    padding: 10px;
+}
+
+.footer-panel-content > ul > li img {
+    display: block;
+    height: auto;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 1px 0 0 0 rgba(0, 0, 0, 0.15);
+    padding: 30px;
+}
+
+/*@media (min-width: 992px) and (max-width: 1200px) {*/
+    /*.footer-panel-content > ul > li > div > img {*/
+        /*display: block;*/
+        /*height: 100px;*/
+        /*width: 200px;*/
+    /*}*/
+/*}*/
+
+.footer-panel-content > ul > li > div > ul {
+    float: left;
+    margin: 10px;
+}
+
+#auto-position > img {
+    width: auto;
+    margin: auto;
+}
