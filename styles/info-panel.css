@@ -17,7 +17,7 @@
 }
 
 .simple-panel {
-    background: url(../images/bg-2.png) repeat;
+    background: url(http://imgur.com/5Yeeswj.jpg) repeat;
 }
 
 .simple-panel ul {
@@ -25,7 +25,6 @@
 }
 
 .simple-panel ul li {
-    background: url(../images/strzalka.png) 82% 10px no-repeat;
     display: block;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
@@ -49,17 +48,17 @@
 
 #phone-icon {
     padding: 15px 20px 15px 59px;
-    background: url(../images/telefon-2.png) 20px 50% no-repeat;
+    background: url(http://imgur.com/3fVRLIb.jpg) 20px 50% no-repeat;
 }
 
 #email-icon {
     padding: 15px 20px 15px 59px;
-    background: url(../images/mail-2.png) 20px 50% no-repeat;
+    background: url(http://i.imgur.com/z5CXCi4.jpg) 20px 50% no-repeat;
 }
 
 #address-icon {
     padding: 15px 20px 15px 59px;
-    background: url(../images/adres-2.png) 20px 50% no-repeat;
+    background: url(http://imgur.com/qINvNyB.jpg) 20px 50% no-repeat;
 }
 
 #info-panel-wrapper {

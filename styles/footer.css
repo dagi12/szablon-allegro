@@ -1,5 +1,5 @@
 #footer {
-    background: #333 url(../images/bg-2.png) repeat;
+    background: #333 url(http://imgur.com/5Yeeswj.jpg) repeat;
     width: 100%;
     float: left;
     padding: 15px 0 0;
@@ -37,11 +37,11 @@
 
 #shipment-panel-title {
     margin-left: 20px;
-    background: url(../images/wysylka.png) no-repeat;
+    background: url(http://imgur.com/lArrVA4.jpg) no-repeat;
 }
 
 #payment-panel-title {
-    background: url(../images/platnosc.png) no-repeat;
+    background: url(http://imgur.com/f5yk2iZ.jpg) no-repeat;
 }
 
 #footer-copyright-wrapper {
