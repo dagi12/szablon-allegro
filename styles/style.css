@@ -13,13 +13,16 @@
     color: #603A40;
     margin: 10px 3px;
     padding: 3px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
     display: block;
     border-bottom: 2px dashed ;
 }
 
+.content-panel-text {
+    font-size: 17px;
+}
 
 .content-panel {
     background: #fff;

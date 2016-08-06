@@ -51,13 +51,21 @@ module.exports = function (grunt) {
                     'dist/index.html': 'dist/index.html'
                 }
             }
+        },
+        uncss: {
+            dist: {
+                files: {
+                    'dist/style.min.css': ['index.html']
+                }
+            }
         }
     });
 
     grunt.loadNpmTasks('grunt-replace');
+    grunt.loadNpmTasks('grunt-uncss');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-processhtml');
-    grunt.registerTask('default', ['cssmin', 'replace', 'processhtml', 'htmlmin']);
+    grunt.registerTask('default', ['cssmin', 'uncss', 'replace', 'processhtml', 'htmlmin']);
 
 };

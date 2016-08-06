@@ -78,11 +78,6 @@
     clear: both;
 }
 
-.info-panel-icon {
-    float: left;
-    display: block;
-}
-
 .info-panel-text {
     display: block;
     padding-left: 10px;
