@@ -2,11 +2,10 @@
     background: #333 url(../images/bg-2.png) repeat;
     width: 100%;
     float: left;
-    padding: 30px 0 0;
+    padding: 15px 0 0;
 }
 
 .footer-panel {
-    padding-left: 20px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -19,17 +18,17 @@
 
 .footer-panel-title {
     display: block;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
     padding-left: 36px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    color: #c44900;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
     -moz-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
     box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
-    color: #c44900;
-    font-size: 20px;
-    font-weight: bold;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
 }
 
 .footer-panel-content p {
@@ -37,6 +36,7 @@
 }
 
 #shipment-panel-title {
+    margin-left: 20px;
     background: url(../images/wysylka.png) no-repeat;
 }
 
@@ -69,6 +69,9 @@
 
 .footer-panel-content > p {
     padding: 0;
+    margin: 10px 20px;
+    font-weight: 100;
+    font-size: 16px;
 }
 
 .footer-panel-content > ul {
@@ -76,39 +79,37 @@
 }
 
 .footer-panel-content > ul > li {
+    padding: 5px;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
-    border-top: 1px solid rgba(255, 255, 255, 0.15);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
-    /*white-space: nowrap;*/
-    width: 100%;
     display: block;
-    float: left;
-    clear: both;
-    padding: 10px;
 }
 
 .footer-panel-content > ul > li img {
     display: block;
-    height: auto;
+    padding-right: 20px;
+}
+
+
+.footer-panel-content .image-container {
     border-right: 1px solid rgba(255, 255, 255, 0.15);
     box-shadow: 1px 0 0 0 rgba(0, 0, 0, 0.15);
-    padding: 30px;
 }
 
-/*@media (min-width: 992px) and (max-width: 1200px) {*/
-    /*.footer-panel-content > ul > li > div > img {*/
-        /*display: block;*/
-        /*height: 100px;*/
-        /*width: 200px;*/
-    /*}*/
-/*}*/
-
-.footer-panel-content > ul > li > div > ul {
-    float: left;
-    margin: 10px;
+.footer-panel-content img {
+    width: 100%;
 }
 
-#auto-position > img {
-    width: auto;
-    margin: auto;
+@media (min-width: 992px) {
+
+    .footer-panel-content > ul > li {
+        height: 150px;
+    }
+
+    .footer-panel-content > ul > li {
+        margin-bottom: 20px;
+    }
+
+    .small-image img {
+        width: 100%!important;
+    }
 }

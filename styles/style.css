@@ -43,3 +43,23 @@
     padding-left: 0;
     padding-right: 0;
 }
+
+.no-margin {
+    margin: 0 auto;
+}
+
+.simple-panel-text p {
+    text-align: center;
+}
+
+.simple-panel-text > p > img {
+    margin: 20px auto;
+    display: block;
+    padding: 20px 0;
+    max-width: 100%;
+}
+
+.small-image img {
+    width: 50%;
+    margin: 0 auto;
+}
