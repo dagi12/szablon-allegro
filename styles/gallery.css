@@ -1,6 +1,6 @@
 .gallery-thumbnail-image:hover > .gallery-main-image {
-    display: block;
     opacity: 1;
+    visibility: visible;
 }
 
 .gallery-thumbnail-image {
@@ -22,13 +22,13 @@
 }
 
 .gallery-main-image {
+    visibility: hidden;
+    opacity: 0;
     position: absolute;
-    display: none;
     top: 135px;
     left: 40px;
     right: 40px;
-    margin: 0;
-    opacity: 0;
+    transition: all 0.2s ease-in-out;
 }
 
 #gallery-photo-container > img {
@@ -37,7 +37,6 @@
     cursor: pointer;
     padding: 4px;
     border: 1px solid #e5e5e5;
-    float: inherit;
 }
 
 .gallery-main-image > img {
@@ -46,11 +45,6 @@
     height: auto;
     padding: 4px;
     border: 1px solid #e5e5e5;
-    float: inherit;
-}
-
-.gallery-thumbnail-image img {
-    transition: all 0.2s ease-in-out;
 }
 
 .gallery-thumbnail-image img:hover {
