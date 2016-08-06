@@ -1,0 +1,30 @@
+{
+  "name": "szablon-allegro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Moj szablon allegro",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dagi12/szablon-allegro.git"
+  },
+  "keywords": [
+    "allegro",
+    "szablon"
+  ],
+  "author": "Eryk Mariankowski",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/dagi12/szablon-allegro/issues"
+  },
+  "devDependencies": {
+    "grunt": "~1.0.1",
+    "grunt-contrib-cssmin": "~1.0.1",
+    "grunt-replace": "~1.0.1",
+    "grunt-contrib-htmlmin": "~2.0.0",
+    "grunt-processhtml": "~0.4.0"
+  }
+}
