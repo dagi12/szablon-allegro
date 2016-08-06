@@ -3,21 +3,11 @@
     opacity: 1;
 }
 
-#gallery-photo-container {
-    display: block;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    vertical-align: baseline;
-}
-
 .gallery-thumbnail-image {
-    background: #fff url(images/lupa.png) 50% 50% no-repeat;
+    background: #fff url(../images/lupa.png) 50% 50% no-repeat;
     display: inline-block;
-    vertical-align: top;
-    margin-right: 1px;
     padding: 4px;
-    margin-top: 5px;
+    margin: 5px 1px;
     border: 1px solid #e5e5e5;
 }
 
@@ -31,7 +21,6 @@
     transition: all 0.2s ease-in-out;
 }
 
-
 .gallery-main-image {
     position: absolute;
     top: 135px;
@@ -42,14 +31,12 @@
     transition: all 0.2s ease-in-out;
 }
 
-#gallery-photo-container img {
+#gallery-photo-container > img {
     display: block;
     cursor: pointer;
-    margin: 0;
-    max-width: 660px;
-    height: auto;
     padding: 4px;
     border: 1px solid #e5e5e5;
+    float: inherit;
 }
 
 .gallery-main-image img {
@@ -58,17 +45,39 @@
     height: auto;
     padding: 0;
     border: none;
+    float: inherit;
 }
 
 .gallery-thumbnail-image > img {
     width: 80px;
-    float: left;
-}
-
-#gallery-photo-container {
-    display: block;
 }
 
 .gallery-thumbnail-image img:hover {
     opacity: 0.3;
 }
+
+/*#gallery-photo-container > img {*/
+    /*max-width: 100%;*/
+/*}*/
+
+/*.gallery-thumbnail-image:hover > .gallery-main-image {*/
+    /*margin-right: 6%;*/
+/*}*/
+
+/*@media (max-width: 1200px) {*/
+    /*.gallery-thumbnail-image:hover > .gallery-main-image {*/
+        /*margin-right: 7%;*/
+    /*}*/
+/*}*/
+
+/*@media (max-width: 992px) {*/
+    /*.gallery-thumbnail-image:hover > .gallery-main-image {*/
+        /*margin-right: 7%;*/
+    /*}*/
+/*}*/
+
+/*@media (max-width: 768px) {*/
+    /*.gallery-thumbnail-image:hover > .gallery-main-image {*/
+        /*margin-right: 7%;*/
+    /*}*/
+/*}*/

@@ -5,22 +5,17 @@
 
 #header-panel {
     background: url(../images/bg-2.png) repeat;
-    height: 200px;
+    height: 100px;
 }
 
 #header-belt {
     background: rgb(0, 0, 0);
-    height: 100px;
+    height: 50px;
 }
 
 #menu ul li {
-    margin: 0;
     padding: 0;
     display: block;
-    vertical-align: middle;
-    float: left;
-    font-size: 13px;
-    line-height: 1.3em;
 }
 
 #menu ul li a {
@@ -34,32 +29,27 @@
     padding: 19px 25px 18px 25px;
     border-left: 1px solid rgba(0, 0, 0, 0.3);
     border-right: 1px solid rgba(255, 255, 255, 0.05);
-    text-decoration: none;
-    -webkit-transition: all 0.2s ease-in-out;
-    font-size: 12px;
+    transition: all 0.2s ease-in-out;
     line-height: 1em;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.3);
-    margin: 3px;
-}
-
-#menu {
-    display: block;
-    width: 100%;
-    float: left;
+    margin: 5px;
 }
 
 #menu ul {
-    margin: 0 auto;
-    list-style: none;
     float: left;
-    padding: 0;
+    padding-left: 0;
     width: 100%;
     background: rgb(35, 35, 35);
-    border-top: 4px rgb(80, 80, 80) solid;
-    border-bottom: 4px rgb(80, 80, 80) solid;
+    margin-bottom: 0;
+}
+
+.menu-border {
+    background: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(130,130,130,1) 30%, rgba(130,130,130,1) 70%, rgba(0,0,0,1) 100%);
+    height: 5px;
+    clear: both;
 }
 
 #menu ul li a:hover {
-    color: #e24430;
+    color: #c44900;
     background-image: linear-gradient(to bottom, #1e1e1e, #505050);
 }

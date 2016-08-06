@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="styles/bootstrap.min.css" rel="stylesheet">
     <link href="styles/style.css" rel="stylesheet">
     <link href="styles/header.css" rel="stylesheet">
@@ -15,18 +16,19 @@
 
     <div id="header">
         <div id="header-belt"></div>
+        <div class="menu-border"></div>
         <div id="menu">
             <ul>
-                <li class="col-md-2 col-sm-4 col-xs-12">
+                <li class="col-xs-12 col-sm-4 col-md-2">
                     <a href="#">Nasze aukcje</a>
                 </li>
-                <li class="col-md-2 col-sm-4 col-xs-12">
+                <li class="col-xs-12 col-sm-4 col-md-2">
                     <a href="#">Komentarze</a>
                 </li>
-                <li class="col-md-2 col-sm-4 col-xs-12">
+                <li class="col-xs-12 col-md-2 col-sm-4">
                     <a href="#">Zadaj pytanie</a>
                 </li>
-                <li class="col-md-2 col-sm-4 col-xs-12">
+                <li class="col-xs-12 col-md-2 col-sm-4">
                     <a href="#">Strona o nas</a>
                 </li>
                 <li class="col-md-2 col-sm-4 col-xs-12">
@@ -34,44 +36,51 @@
                 </li>
             </ul>
         </div>
+        <div class="menu-border"></div>
         <div id="header-panel"></div>
     </div>
 
-    <div class="row">
-        <div id="right-margin" class="hidden-xs hidden-sm col-md-1"></div>
-        <div id="content" class="col-xs-12 col-md-7 col-md-push-2">
-            <div id="content-title">Nazwa oferowanego przedmiotu</div>
+    <div id="content-wrapper" class="row">
+        <div id="right-margin" class="visible-lg col-lg-1"></div>
+        <div id="content" class="col-xs-12 col-md-8 col-lg-7 col-md-push-4 col-lg-push-3">
+            <div id="content-title">
+                Nazwa oferowanego przedmiotu
+            </div>
+
             <div id="gallery" class="content-panel">
                 <div class="content-panel-title">
                     Galeria przedmiotu
                 </div>
                 <div id="gallery-photo-container">
-                    <img src="images/1.jpg">
+                        <img src="images/1.jpg" class="col-xs-10 col-sm-9 col-md-11 col-lg-8 no-padding">
                     <div class="gallery-thumbnail-image">
                         <img src="images/1.jpg">
-                        <div class="gallery-main-image">
+                        <div class="gallery-main-image col-xs-10 col-sm-9 col-md-11 col-lg-8 no-padding">
                             <img src="images/1.jpg">
                         </div>
                     </div>
                     <div class="gallery-thumbnail-image">
                         <img src="images/2.jpg">
-                        <div class="gallery-main-image">
+                        <div class="gallery-main-image col-xs-10 col-sm-9 col-md-11 col-lg-8 no-padding">
                             <img src="images/2.jpg">
                         </div>
                     </div>
                     <div class="gallery-thumbnail-image">
                         <img src="images/3.jpg">
-                        <div class="gallery-main-image">
+                        <div class="gallery-main-image col-xs-10 col-sm-9 col-md-11 col-lg-8 no-padding">
                             <img src="images/3.jpg">
                         </div>
                     </div>
                     <div class="gallery-thumbnail-image">
                         <img src="images/4.jpg">
-                        <div class="gallery-main-image">
+                        <div class="gallery-main-image col-xs-10 col-sm-9 col-md-11 col-lg-8 no-padding">
                             <img src="images/4.jpg">
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="sidebar-shadow">
+                <img src="images/shadow-sidebar.png">
             </div>
 
             <div class="content-panel">
@@ -89,85 +98,136 @@
                     culpa qui officia deserunt mollit anim id est laborum.
                 </div>
             </div>
-
+            <div class="sidebar-shadow">
+                <img src="images/shadow-sidebar.png">
+            </div>
 
         </div>
-        <div id="info-panel-wrapper" class="col-xs-12 col-md-2 col-md-pull-7">
+        <div id="info-panel-wrapper" class="col-xs-12 col-md-4 col-lg-3 col-md-pull-8 col-lg-pull-7">
             <div id="contact-panel" class="info-panel">
-                <div class="info-panel-row">
-                    <div class="info-panel-icon">
-                        <div id="phone-icon"></div>
-                    </div>
+                <div id="phone-icon" class="info-panel-row">
                     <div class="info-panel-text">
                         502 662 634
                     </div>
                 </div>
-                <div class="info-panel-row">
-                    <div class="info-panel-icon">
-                        <div id="email-icon"></div>
-                    </div>
+                <div id="email-icon" class="info-panel-row">
                     <div class="info-panel-text">
                         emariankowski@gmail.com
                     </div>
                 </div>
 
-                <div class="info-panel-row">
-                    <div class="info-panel-icon">
-                        <div id="address-icon"></div>
-                    </div>
+                <div id="address-icon" class="info-panel-row">
                     <div class="info-panel-text">
                         Poznań
                     </div>
                 </div>
             </div>
+            <div class="sidebar-shadow">
+                <img src="images/shadow-sidebar.png">
+            </div>
 
-            <div id="category-panel" class="info-panel">
-                <div id="category-panel-header">
+            <div class="simple-panel info-panel">
+                <div class="simple-panel-title">
                     Kategorie
                 </div>
-                <div class="category-panel-row">
-                    Pierwsza kategoria
+                <ul>
+                    <li>
+                        <a href="#">Pierwsza kategoria</a>
+
+                    </li>
+                    <li>
+                        <a href="#">Druga kategoria</a>
+
+                    </li>
+                    <li>
+                        <a href="">Trzecia kategoria</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebar-shadow">
+                <img src="images/shadow-sidebar.png">
+            </div>
+
+            <div class="simple-panel info-panel">
+                <div class="simple-panel-title">
+                    Regulamin
                 </div>
-                <div class="category-panel-row">
-                    Druga kategoria
+                <div class="simple-panel-text">
+                    Zanim dokonasz zakupu wejdź na stronę o mnie i zapoznaj się z moim regulaminem. Dokonanie zakupu na
+                    mojej aukcji jest równoznaczne z akceptacją mojego regulaminu.
                 </div>
-                <div class="category-panel-row">
-                    Trzecia kategoria kategoria
+            </div>
+
+            <div class="sidebar-shadow">
+                <img src="images/shadow-sidebar.png">
+            </div>
+
+            <div class="visible-md visible-lg">
+                <div class="info-panel allegro-standard-panel">
+                    <img src="images/standard-allegro.gif" style="width: 100%">
+                </div>
+                <div class="sidebar-shadow">
+                    <img src="images/shadow-sidebar.png">
                 </div>
             </div>
 
         </div>
-        <div id="left-margin" class="hidden-xs hidden-sm col-md-1"></div>
+        <div id="left-margin" class="visible-lg col-lg-1"></div>
     </div>
+    <div class="menu-border"></div>
     <div id="footer">
         <div id="footer-panel-wrapper">
-            <div id="shipment-panel" class="footer-panel">
-                <div class="footer-panel-title">
-
+            <div id="shipment-panel" class="footer-panel col-md-6 col-xs-12">
+                <div id="shipment-panel-title" class="footer-panel-title">
+                    Wysyłka
                 </div>
                 <div class="footer-panel-content">
+                    <p>
+                        Po zaukupie na aukcji allegro oraz po wybraniu formy płatności "Przy wpłacie na konto" prosimy o
+                        wpłatę na poniższe konto bankowe.
+
+                    </p>
+                    <p>
+                        Po zaukupie na aukcji allegro oraz po wybraniu formy płatności "Przy wpłacie na konto" prosimy o
+                        wpłatę na poniższe konto bankowe.
+
+                    </p>
 
                 </div>
             </div>
-            <div id="payment-panel" class="footer-panel">
-                <div class="footer-panel-title">
-                    Przesyłki kurierskie wysyłamy za pośrednictwem firmy kurierskiej UPS.
-                    Wszystkie przesyłki pakujemy w taki sposób, aby bezpiecznie dotarły do odbiorcy bez możliwości ich
-                    uszkodzenia, mimo wszystko przesyłka może zostać uszkodzona podczas transportu. Zawsze sprawdzaj
-                    przesyłkę przy dostawcy, w razie jakichkolwiek uszkodzeń przesyłki spisz protokół. Protokół jest
-                    potrzebny do ewentualnej reklamacji.
+            <div id="payment-panel" class="footer-panel col-md-6 col-xs-12">
+                <div id="payment-panel-title" class="footer-panel-title">
+                    Płatności
                 </div>
                 <div class="footer-panel-content">
-                    Po zaukupie na aukcji allegro oraz po wybraniu formy płatności "Przy wpłacie na konto" prosimy o
-                    wpłatę na poniższe konto bankowe.
-
-                    W tytule wpłaty prosimy podać nick allegro oraz numer aukcji, pozwoli to nam szybciej zidentyfikować
-                    kupującego co, powinno znacznie przyśpieszyć wysyłkę towaru.
+                    <p>
+                        Po zaukupie na aukcji allegro oraz po wybraniu formy płatności "Przy wpłacie na konto" prosimy o
+                        wpłatę na poniższe konto bankowe.
+                        Przesyłki kurierskie wysyłamy za pośrednictwem firmy kurierskiej UPS.
+                        Wszystkie przesyłki pakujemy w taki sposób, aby bezpiecznie dotarły do odbiorcy bez możliwości
+                        ich
+                        uszkodzenia, mimo wszystko przesyłka może zostać uszkodzona podczas transportu. Zawsze sprawdzaj
+                        przesyłkę przy dostawcy, w razie jakichkolwiek uszkodzeń przesyłki spisz protokół. Protokół jest
+                        potrzebny do ewentualnej reklamacji.
+                    </p>
+                    <p>
+                        Po zaukupie na aukcji allegro oraz po wybraniu formy płatności "Przy wpłacie na konto" prosimy o
+                        wpłatę na poniższe konto bankowe.
+                        Przesyłki kurierskie wysyłamy za pośrednictwem firmy kurierskiej UPS.
+                        Wszystkie przesyłki pakujemy w taki sposób, aby bezpiecznie dotarły do odbiorcy bez możliwości
+                        ich
+                        uszkodzenia, mimo wszystko przesyłka może zostać uszkodzona podczas transportu. Zawsze sprawdzaj
+                        przesyłkę przy dostawcy, w razie jakichkolwiek uszkodzeń przesyłki spisz protokół. Protokół jest
+                        potrzebny do ewentualnej reklamacji.
+                    </p>
                 </div>
             </div>
         </div>
-        <div id="footer-copyright">
-            Copyright © 2016. All Right Reserved.
+        <div class="menu-border"></div>
+        <div id="footer-copyright-wrapper">
+            <div id="footer-copyright-text">
+                Copyright © 2016. All Right Reserved.
+            </div>
         </div>
     </div>
 </div>
