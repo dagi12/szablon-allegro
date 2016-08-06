@@ -40,7 +40,7 @@
     padding-left: 0;
     width: 100%;
     background: rgb(35, 35, 35);
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .menu-border {
@@ -50,6 +50,6 @@
 }
 
 #menu ul li a:hover {
-    color: #c44900;
+    color: #440D0F;
     background-image: linear-gradient(to bottom, #1e1e1e, #505050);
 }

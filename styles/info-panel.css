@@ -1,5 +1,5 @@
 #contact-panel {
-    background: #c44900;
+    background: #440D0F;
 }
 
 .simple-panel-title {
@@ -9,7 +9,7 @@
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
-    color: #c44900;
+    color: #603A40;
     font-size: 17px;
     font-weight: bold;
     letter-spacing: 1px;
@@ -44,7 +44,7 @@
 .simple-panel ul li a:hover {
     background: rgba(0, 0, 0, 0.05);
     padding: 9px 20px 9px 25px;
-    color: #c44900;
+    color: #440D0F;
 }
 
 #phone-icon {
