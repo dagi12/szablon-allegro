@@ -7,7 +7,7 @@ module.exports = function (grunt) {
         cssmin: {
             dist: {
                 files: {
-                    'dist/style.min.css': ['styles/*.css']
+                    'dist/style.min.css': ['dist/tidy.css']
                 }
             }
         },
@@ -55,7 +55,7 @@ module.exports = function (grunt) {
         uncss: {
             dist: {
                 files: {
-                    'dist/style.min.css': ['index.html']
+                    'dist/tidy.css': ['index.html']
                 }
             }
         }
@@ -66,6 +66,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-processhtml');
-    grunt.registerTask('default', ['cssmin', 'uncss', 'replace', 'processhtml', 'htmlmin']);
+    grunt.registerTask('default', ['replace', 'uncss', 'cssmin', 'processhtml', 'htmlmin']);
 
 };
