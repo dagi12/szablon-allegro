@@ -58,14 +58,28 @@ module.exports = function (grunt) {
                     'dist/tidy.css': ['index.html']
                 }
             }
+        },
+        strip_code: {
+            options: {
+                blocks: [
+                    {
+                        start_block: "<!-- start-html-test-code -->",
+                        end_block: "<!-- end-html-test-code -->"
+                    }
+                ]
+            },
+            your_target: {
+                src: 'dist/index.html'
+            }
         }
     });
 
+    grunt.loadNpmTasks('grunt-strip-code');
     grunt.loadNpmTasks('grunt-replace');
     grunt.loadNpmTasks('grunt-uncss');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-processhtml');
-    grunt.registerTask('default', ['replace', 'uncss', 'cssmin', 'processhtml', 'htmlmin']);
+    grunt.registerTask('default', ['replace', 'uncss', 'cssmin', 'processhtml', 'strip_code', 'htmlmin']);
 
 };
