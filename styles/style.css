@@ -37,10 +37,6 @@
     background: url(http://imgur.com/pDCQPFA.jpg) repeat;
 }
 
-#content-wrapper {
-    margin: 0;
-}
-
 .no-padding {
     padding-left: 0;
     padding-right: 0;
@@ -72,7 +68,7 @@
 }
 
 .col-1 {
-    width: 83.333333%;
+    width: 8.3333333%;
 }
 
 .col-2 {
