@@ -81,6 +81,10 @@
     display: block;
 }
 
+.footer-panel-content > ul > li ul > li {
+    list-style: disc;
+}
+
 .footer-panel-content > ul > li img {
     display: block;
     padding-right: 20px;
