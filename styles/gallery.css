@@ -34,7 +34,6 @@
 #gallery-photo-container > img {
     display: block;
     max-width: 100%;
-    height: 600px;
     cursor: pointer;
     padding: 4px;
     border: 1px solid #440D0F;
@@ -43,7 +42,6 @@
 .gallery-main-image > img {
     display: block;
     max-width: 100%;
-    height: 600px;
     padding: 4px;
     border: 1px solid #440D0F;
 }
