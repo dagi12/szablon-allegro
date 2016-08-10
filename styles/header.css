@@ -13,12 +13,12 @@
     height: 50px;
 }
 
-#menu ul li {
+.button-container {
     padding: 0;
     display: block;
 }
 
-#menu ul li a {
+.button {
     display: block;
     height: 50px;
     font-weight: bold;
@@ -44,7 +44,6 @@
     text-decoration: none;
 }
 
-
 #menu ul {
     float: left;
     padding-left: 0;
@@ -55,15 +54,19 @@
 
 .menu-border {
     background: linear-gradient(to bottom,
-        rgba(0, 0, 0, 1) 0%,
-        rgba(130, 130, 130, 1) 30%,
-        rgba(130, 130, 130, 1) 70%,
-        rgba(0, 0, 0, 1) 100%
+    rgba(0, 0, 0, 1) 0%,
+    rgba(130, 130, 130, 1) 30%,
+    rgba(130, 130, 130, 1) 70%,
+    rgba(0, 0, 0, 1) 100%
     );
     height: 5px;
     clear: both;
 }
 
+
+.bordered {
+
+}
 #menu ul li a:not(.button-down):hover {
     color: #440D0F;
     background-image: linear-gradient(to bottom, #1e1e1e, #505050);
