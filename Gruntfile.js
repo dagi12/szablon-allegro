@@ -8,6 +8,9 @@ module.exports = function (grunt) {
             dist: {
                 files: {
                     'dist/style.min.css': ['dist/tidy.css']
+                },
+                options: {
+                    'keepSpecialComments': false
                 }
             }
         },
